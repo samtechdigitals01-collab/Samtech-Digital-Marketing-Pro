@@ -2,53 +2,103 @@
 <html>
 <head>
   <title>Samtech Digital Pro</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url(https://docs.google.com/document/d/1-7Lw8s86Bt0NNea8Ilz5E0UK6ccDHJ7RNNxnemfV2Dk/edit?usp=sharing) no-repeat center center/cover;
+      color: white;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .landing-container {
+      background: rgba(0,0,0,0.6); /* semi-transparent overlay */
+      padding: 40px;
+      border-radius: 15px;
+      text-align: center;
+      max-width: 400px;
+      width: 90%;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border-radius: 8px;
+      border: none;
+    }
+
+    form button {
+      width: 100%;
+      padding: 12px;
+      background: #38bdf8;
+      border: none;
+      border-radius: 8px;
+      color: black;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .social-icons a img {
+      width: 40px;
+      height: 40px;
+    }
+  </style>
 </head>
 
-<body style="text-align:center; font-family:Arial; background:#0f172a; color:white; padding:40px;">
+<body>
+  <div class="landing-container">
+    <h1>Samtech Digital Pro 🚀</h1>
+    <p>Enter your details to access our website and services</p>
 
-  <h1>Samtech Digital Pro 🚀</h1>
-  <p>Connect with us or drop your details to continue</p>
+    <form id="leadForm">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Enter Website</button>
+    </form>
 
- <!-- SOCIAL FLOATING BUTTONS -->
-<div style="position:fixed; bottom:20px; right:20px; display:flex; flex-direction:column; gap:10px; z-index:1000;">
-
-  <!-- WhatsApp -->
-  <a href="https://wa.me/18579616351" target="_blank" style="background:#25D366; width:50px; height:50px; display:flex; justify-content:center; align-items:center; border-radius:50%; color:white; font-size:24px; text-decoration:none;">💬</a>
-
-  <!-- Instagram -->
-  <a href="https://instagram.com/https://www.instagram.com/samtech_digitals01?igsh=MTZoZzg5NXgyNHU5dA==" target="_blank" style="background:#E1306C; width:50px; height:50px; display:flex; justify-content:center; align-items:center; border-radius:50%; color:white; font-size:24px; text-decoration:none;">📸</a>
-
-  <!-- Facebook -->
-  <a href="https://facebook.com/https://www.facebook.com/share/1GrV5d7xkA/" target="_blank" style="background:#1877F2; width:50px; height:50px; display:flex; justify-content:center; align-items:center; border-radius:50%; color:white; font-size:24px; text-decoration:none;">👍</a>
-
-  <!-- LinkedIn -->
-  <a href="https://linkedin.com/in/YOUR_PROFILE" target="_blank" style="background:#0A66C2; width:50px; height:50px; display:flex; justify-content:center; align-items:center; border-radius:50%; color:white; font-size:24px; text-decoration:none;">💼</a>
-
-  <!-- Twitter -->
-  <a href="https://twitter.com/https://l.instagram.com/?u=https%3A%2F%2Fx.com%2FSamueladed15784%3Ffbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGn9Xqgwc77KXsxB32XQnCk44NXVdbKe1GDPrL339gck_xlLlTU6As2i2SBouo_aem_K6dclmQJAm0dEolFt18lkg&e=AT1IQaYRPx-AW-oXTZtLsrZbOCOsm0gMpTBlW0GTVfB8Bhan9a5hUdtuKs0twSjWDTeUzyHjg7sj3w5tiu7f5B-tSG0fDDOB5eetCZoYTw" target="_blank" style="background:#1DA1F2; width:50px; height:50px; display:flex; justify-content:center; align-items:center; border-radius:50%; color:white; font-size:24px; text-decoration:none;">🐦</a>
-
-</div>
-
-
-  <!-- FORM -->
-  <form id="leadForm">
-    <input type="text" name="name" placeholder="Your Name" required><br><br>
-    <input type="email" name="email" placeholder="Your Email" required><br><br>
-    <textarea name="message" placeholder="Your Message" required></textarea><br><br>
-    <button type="submit">Enter Website</button>
-  </form>
+    <div class="social-icons">
+      <a href="https://wa.me/18579616351" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/124/124034.png"></a>
+      <a href="https://instagram.com/https://www.instagram.com/samtech_digitals01?igsh=MTZoZzg5NXgyNHU5dA==" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png"></a>
+      <a href="https://facebook.com/https://www.facebook.com/share/1GrV5d7xkA/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/124/124010.png"></a>
+      <a href="https://linkedin.com/in/YOUR_PROFILE" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png"></a>
+      <a href="https://twitter.com/https://x.com/Samueladed15784" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png"></a>
+    </div>
+  </div>
 
   <script>
     document.getElementById("leadForm").addEventListener("submit", function(e){
       e.preventDefault();
 
       const name = this.name.value;
+      const email = this.email.value;
+      const message = this.message.value;
 
-      alert("Thanks " + name + "! Welcome to Samtech Digital Pro");
+      alert(`Thanks ${name}! Your message has been received.`);
 
       window.location.href = "main.html";
     });
   </script>
-
 </body>
 </html>
